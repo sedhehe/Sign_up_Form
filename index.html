@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/noramlize.css">
+</head>
+
+<body>
+    <div id="side-section">
+        <div id="logo">
+            <img src="logo.png" alt="nordic" width="75px" height="100px">
+            <p id="odin">ODIN</p>
+        </div>
+        <div id="creds">Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></div>
+    </div>
+    <div id="main">
+        <div id="content">
+            <p>This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                <br>
+                Sign up <i>now</i> to get started.
+                <br>
+                <br>
+                You <i>know</i> you want to.
+            </p>
+        </div>
+        <div id="frm">
+            <form action="" method="post">
+                <fieldset class="inputs">
+                    <legend style="font-weight: bold;">Let's do this!</legend>
+                    <div class="entry">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                        
+                    </div>
+                    <div class="entry">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                    <div class="entry">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                    </div>
+                    <div class="entry">
+                        <label for="number">PHONE NUMBER</label>
+                        <input type="tel" id="number" name="number" required>
+                        
+                    </div>
+                    <div class="entry">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                        <div class="txt">*Passwords do not match</div>
+                        
+                    </div>
+                    <div class="entry">
+                        <label for="cpassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="cpassword" name="cpassword" required>
+                        
+                    </div>
+                </fieldset>
+                <button type="submit" id="cre_acc">Create Account</button>
+            </form>
+        </div>
+        <div id="log-in">
+            <p>Already have an account?<a href=""> Log in</a></p>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
